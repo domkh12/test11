@@ -13,3 +13,6 @@ Disallow: /private/
 # Block all web crawlers from accessing a specific file
 User-agent: *
 Disallow: /secret.html
+
+Allow: /api/og/*
+

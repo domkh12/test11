@@ -15,6 +15,7 @@
     "@emotion/styled": "^11.11.5",
     "@mui/material": "^5.16.0",
     "@reduxjs/toolkit": "^2.2.6",
+    "@vercel/og": "^0.6.2",
     "aos": "^2.3.4",
     "axios": "^1.7.2",
     "flowbite-react": "^0.10.1",
