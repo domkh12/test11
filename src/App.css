@@ -1,0 +1,28 @@
+.active {
+  color: #4C3DE3; /* Or any other desired color */
+}
+
+.toggle.block {
+  /* ... other styles ... */
+  position: absolute;
+  top: 10px; /* Add margin-top */
+  left: 0;
+  right: 0;
+  background-color: white; /* Adjust background color as needed */
+  z-index: 999; /* Ensure it's above the navbar */
+}
+
+.avatar-custom img {
+  object-fit: cover;
+}
+
+/* Default style */
+.date-input::-webkit-calendar-picker-indicator {
+  filter: invert(0%);
+}
+
+/* Dark mode style */
+.dark .date-input::-webkit-calendar-picker-indicator {
+  filter: invert(100%);
+}
+
