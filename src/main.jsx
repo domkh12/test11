@@ -38,6 +38,7 @@ import EditProfile from "./components/profile/EditProfile.jsx";
 import MainLayout from "./components/dashboard/MainLayout.jsx";
 import HomeDashboard from "./components/dashboard/HomeDashboard.jsx";
 import SlideUpPreview from "./components/dashboard/SlideUpPreview.jsx";
+import { HelmetProvider } from "react-helmet-async";
 
 const router = createBrowserRouter([
   {
