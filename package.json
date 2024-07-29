@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "postbuild": "react-snap",
-    "build": "vite build",
+    "build": "react-snap",
+  
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "build:css": "npx tailwindcss -i ./src/iframe.css -o ./public/css/index.css --minify"
