@@ -17,7 +17,7 @@ function App() {
     <>
 
       <SEO
-        title="Showcase - Your Portfolio Builder"
+        title="Showcase - Your Portfolio"
         description="Build and customize your portfolio with ease using our portfolio builder."
         keywords="portfolio, builder, templates, showcase"
         url="https://test11-ecru.vercel.app/"
