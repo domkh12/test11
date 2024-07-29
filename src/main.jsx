@@ -191,10 +191,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <HelmetProvider>
     <Provider store={store}>
+    <HelmetProvider>
       <RouterProvider router={router} />
+      </HelmetProvider>
     </Provider>
-    </HelmetProvider>
   </React.StrictMode>
 );

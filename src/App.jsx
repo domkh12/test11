@@ -8,12 +8,13 @@ import OurTeamSection from "./components/homepage/OurTeamSection";
 import FooterSection from "./components/homepage/FooterSection";
 import ContactSection from "./components/homepage/ContactSection";
 import ScrollToTop from "react-scroll-to-top";
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import SEO from "./components/seo/SEO";
 import ScrollToTopButton from "./components/homepage/ScrollToTopButton";
 function App() {
   return (
     <>
+    <Helmet>
       <SEO
         title="Showcase - Your Portfolio Builder"
         description="Build and customize your portfolio with ease using our portfolio builder."
@@ -21,6 +22,7 @@ function App() {
         url="https://test11-ecru.vercel.app/"
         image="https://i.pinimg.com/originals/f1/15/24/f11524ef3d2a23175a58213744311542.png"
       />
+      </Helmet>
 
       <header>
         <NavBarComponent />
