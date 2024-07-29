@@ -13,7 +13,7 @@ import SEO from "./components/seo/SEO";
 import ScrollToTopButton from "./components/homepage/ScrollToTopButton";
 function App() {
   return (
-    <HelmetProvider>
+    <>
       <SEO
         title="Showcase - Your Portfolio Builder"
         description="Build and customize your portfolio with ease using our portfolio builder."
@@ -34,7 +34,7 @@ function App() {
       </main>
       <FooterSection />
       <ScrollToTopButton />
-    </HelmetProvider>
+      </>
   );
 }
 
