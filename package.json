@@ -5,11 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "postbuild": "react-snap",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "build:css": "npx tailwindcss -i ./src/iframe.css -o ./public/css/index.css --minify"
   },
+  "reactSnap": {
+  "inlineCss": true
+},
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
