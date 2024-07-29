@@ -19,7 +19,7 @@ function App() {
         description="Build and customize your portfolio with ease using our portfolio builder."
         keywords="portfolio, builder, templates, showcase"
         url="https://5c74-175-100-10-208.ngrok-free.app/"
-        image="https://i.pinimg.com/originals/f1/15/24/f11524ef3d2a23175a58213744311542.png"
+        image="/imgSeo.png"
       />
 
       <header>
