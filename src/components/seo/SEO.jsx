@@ -11,16 +11,9 @@ const SEO = ({ title, description, keywords, url, image }) => {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
+      <meta property="og:image:width" content="1200"/>
+      <meta property="og:image:height" content="630"/>
       <meta property="og:image" content={image} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={image} />
-      <meta name="telegram:title" content={title} />
-      <meta name="telegram:description" content={description} />
-      <meta name="telegram:image" content={image} />
-      <meta name="github:title" content={title} />
-      <meta name="github:description" content={description} />
-      <meta name="github:image" content={image} />
     </Helmet>
   );
 };
