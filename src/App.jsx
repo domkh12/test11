@@ -18,7 +18,7 @@ function App() {
         title="Showcase - Your Portfolio Builder"
         description="Build and customize your portfolio with ease using our portfolio builder."
         keywords="portfolio, builder, templates, showcase"
-        url="https://test11-ecru.vercel.app/"
+        url="https://test11-nwgn39yza-eichanudoms-projects.vercel.app/"
       />
 
       <header>

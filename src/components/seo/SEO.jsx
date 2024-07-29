@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ title, description, keywords, url }) => {
-  const ogImageUrl = `https://test11-ecru.vercel.app/api/og?title=${encodeURIComponent(title)}`;
+  const ogImageUrl = `https://test11-nwgn39yza-eichanudoms-projects.vercel.app/api/og?title=${encodeURIComponent(title)}`;
 
   return (
     <Helmet>
