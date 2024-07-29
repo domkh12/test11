@@ -12,7 +12,7 @@ import { HelmetProvider } from "react-helmet-async";
 import SEO from "./components/seo/SEO";
 import ScrollToTopButton from "./components/homepage/ScrollToTopButton";
 function App() {
-  const url = "https://test11-ecru.vercel.app/";
+  const url = "https://test11-ecru.vercel.app";
   return (
     
     <HelmetProvider>
