@@ -1,29 +1,33 @@
+// pages/api/og.js
 import { ImageResponse } from '@vercel/og';
 
 export const config = {
-  runtime: 'edge',
+  runtime: 'experimental-edge',
 };
 
 export default async function handler(req) {
   const { searchParams } = new URL(req.url);
-  const title = searchParams.get('title') || 'Default Title';
+  const title = searchParams.get('title') || 'Showcase';
+  const description = searchParams.get('description') || 'Build and customize your portfolio with ease.';
+  const imageUrl = searchParams.get('image') || 'https://i.pinimg.com/originals/f1/15/24/f11524ef3d2a23175a58213744311542.png';
 
   return new ImageResponse(
     (
       <div
         style={{
-          fontSize: 40,
-          color: 'black',
+          fontSize: 42,
           background: 'white',
-          width: '100%',
-          height: '100%',
-          padding: '50px 200px',
-          textAlign: 'center',
-          justifyContent: 'center',
+          width: '1200px',
+          height: '630px',
+          display: 'flex',
           alignItems: 'center',
+          justifyContent: 'center',
+          flexDirection: 'column',
         }}
       >
-        {title}
+        <img src={imageUrl} alt="Image" width={600} height={315} />
+        <h1>{title}</h1>
+        <p>{description}</p>
       </div>
     ),
     {
