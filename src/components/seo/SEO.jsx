@@ -2,7 +2,8 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ title, description, keywords, url, image }) => {
-  const imageUrl = `${url}/imgSeo.png`;
+  const imageUrl = `${url}${image}`; // Ensure the image path is correct
+
   return (
     <Helmet>
       <title>{title}</title>
@@ -17,14 +18,6 @@ const SEO = ({ title, description, keywords, url, image }) => {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={imageUrl} />
-      <meta name="telegram:card" content="summary_large_image" />
-      <meta name="telegram:title" content={title} />
-      <meta name="telegram:description" content={description} />
-      <meta name="telegram:image" content={imageUrl} />
-      <meta name="github:card" content="summary_large_image" />
-      <meta name="github:title" content={title} />
-      <meta name="github:description" content={description} />
-      <meta name="github:image" content={imageUrl} />
     </Helmet>
   );
 };
