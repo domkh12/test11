@@ -7,11 +7,8 @@ import FeatureSection from "./components/homepage/FeatureSection";
 import OurTeamSection from "./components/homepage/OurTeamSection";
 import FooterSection from "./components/homepage/FooterSection";
 import ContactSection from "./components/homepage/ContactSection";
-import ScrollToTop from "react-scroll-to-top";
-import { HelmetProvider } from "react-helmet-async";
-import SEO from "./components/seo/SEO";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import ScrollToTopButton from "./components/homepage/ScrollToTopButton";
-import { Helmet } from "react-helmet";
 function App() {
   return (
     <HelmetProvider>
