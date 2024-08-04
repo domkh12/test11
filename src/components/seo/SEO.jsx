@@ -1,5 +1,6 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+"use client";
+import React from "react";
+import { Helmet } from "react-helmet";
 
 const SEO = ({ title, description, keywords, url, image }) => {
   return (
@@ -10,8 +11,8 @@ const SEO = ({ title, description, keywords, url, image }) => {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={url} />     
-      </Helmet>
+      <meta property="og:url" content={url} />
+    </Helmet>
   );
 };
 
