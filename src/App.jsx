@@ -15,7 +15,7 @@ function App() {
      <Helmet>
       <title>"Showcase - Your Portfolio"</title>
       <meta name="description" content="Build and" />
-      <meta name="keywords" content="https://i.pinimg.com/originals/f1/15/24/f11524ef3d2a23175a58213744311542.png" />
+      <meta name="keywords" content="Showcase.png" />
       <meta property="og:title" content="Showcase - Your Portfolio" />
       <meta property="og:description" content="Build and" />
       <meta property="og:type" content="website" />
