@@ -13,7 +13,7 @@ function App() {
   return (
     <HelmetProvider>
      <Helmet>
-      <title>"Showcase - Your Portfolio"</title>
+      <title>Showcase - Your Portfolio</title>
       <meta name="description" content="Build and" />
       <meta name="keywords" content="Showcase.png" />
       <meta property="og:title" content="Showcase - Your Portfolio" />
